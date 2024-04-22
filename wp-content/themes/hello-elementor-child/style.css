@@ -10,7 +10,15 @@ Version: 3.0.1.1710921438
 Updated: 2024-03-20 07:57:18
 
 */
+.informations {
+    border-right: 1px white solid;
+}
 
+
+textarea#wpforms-52-field_3 {
+    position: relative;
+    z-index: 1;
+}
 
 
 #menu-item-38 a.hfe-menu-item {
@@ -31,6 +39,7 @@ Updated: 2024-03-20 07:57:18
 #formulaire {
     display: flex;
     justify-content: space-around;
+    color: white;
 }
 
 .elementor-element.elementor-element-b9ceeae.e-flex.e-con-boxed.wpr-particle-no.wpr-jarallax-no.wpr-parallax-no.wpr-sticky-section-no.e-con.e-parent {
