@@ -21,5 +21,15 @@ if ( !function_exists( 'child_theme_configurator_css' ) ):
 endif;
 add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 998 );
 
+add_filter( 'wp_nav_menu_items', 'add_admin_link',10,2);
+function add_admin_link( $items, $args ) {
+        if (is_user_logged_in() && $args->menu == "navigation") {
+        $items .= '<li class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"><a class="hfe-menu-item" href="'. admin_url() .'">Admin</a></li>';
+    }
+    return $items;
+}
 
-// END ENQUEUE PARENT ACTION
+?>
+
+
+
