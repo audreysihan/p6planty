@@ -24,8 +24,30 @@ input.wpcf7-form-control.wpcf7-submit.has-spinner {
     margin-top: 30px;
 }
 
+input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select, textarea {
+    width: 130%; 
+}
+
+.elementor *, .elementor :after, .elementor :before {
+    box-sizing: border-box;
+}
+
+input.wpcf7-form-control.wpcf7-submit.has-spinner {
+    margin-left: 120px;
+}
+
+.elementor-33 .elementor-element.elementor-element-0748116 {
+    --width: 80%;
+}
+
 span.wpcf7-form-control-wrap {
     width: 35px;
+}
+
+.livraison {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 .informations {
@@ -33,12 +55,10 @@ span.wpcf7-form-control-wrap {
     padding-right: 140px;
 }
 
-
 textarea#wpforms-52-field_3 {
     position: relative;
     z-index: 1;
 }
-
 
 #menu-item-38 a.hfe-menu-item {
     color: white;
@@ -49,7 +69,6 @@ textarea#wpforms-52-field_3 {
     order: 3;
 }
 
-
 .post-33{
     background: #3B8E46;
 }
@@ -59,11 +78,16 @@ textarea#wpforms-52-field_3 {
     justify-content: space-evenly;
 }
 
-
 #formulaire {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     color: white;
+    padding-right: 70px;
+}
+
+.elementor-element.elementor-element-60197060.e-con-full.e-flex.wpr-particle-no.wpr-jarallax-no.wpr-parallax-no.wpr-sticky-section-no.e-con.e-parent {
+    border-radius: 0% 0% 25% 25% / 0% 0% 13% 13%;
+    overflow: hidden;
 }
 
 .elementor-element.elementor-element-e3b84fb.e-flex.e-con-boxed.wpr-particle-no.wpr-jarallax-no.wpr-parallax-no.wpr-sticky-section-no.e-con.e-parent {
@@ -82,7 +106,6 @@ textarea#wpforms-52-field_3 {
 h2.elementor-heading-title.elementor-size-default {
     margin-top: 100px;
 }
-
 
 #fleur-rencontrer {
     display: flex;
